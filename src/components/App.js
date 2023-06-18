@@ -1,2 +1,13 @@
-<p>Now I can render any React component on any DOM node I want using ReactDOM.render</p>
+const React = require('react');
+const LoginForm = require('./LoginForm');
 
+const App = () => {
+  return (
+    <div>
+      <h1>Login Form</h1>
+      <LoginForm />
+    </div>
+  );
+};
+
+module.exports = App;
